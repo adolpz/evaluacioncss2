@@ -1,0 +1,133 @@
+/* FUENTES  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
+
+/* Selector universal */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  background-image: url("../img/imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+    background-color: rgb(22, 105, 126);
+    padding: 0px 7%;
+    border: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10%;
+    border: 5px solid red;
+    border-radius: 75%;
+  }
+
+body {
+  background-color: aliceblue;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 17px 13px 400px 94px rgba(8, 145, 163, 0.75);
+  -webkit-box-shadow: 17px 13px 400px 94px rgba(8, 163, 155, 0.75);
+  -moz-box-shadow: 17px 13px 400px 94px rgba(8, 153, 163, 0.75);
+  border: 10px double black;
+}
+
+/* estilos para la etiqueta nav que contiene un menu de navegacion */
+
+.menu{
+	background-color: rgb(22, 105, 126);
+	flex: 20%;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(2, 2, 2);
+    display: block;
+
+}
+
+main{
+    display: flex;
+    box-shadow: 2px 5px 20px rgb(240, 248, 225, 0.891);
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+article p {
+    font-family: var(--fuente);
+    margin-bottom: 20px;
+    margin: 8px;
+    padding: 8px;
+}
+
+footer{
+    background-color: aqua;
+
+}
+
+.img{
+    width: 15%;
+}
+
+.box{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	
+}
+
+.contenido{
+	background-color: rgb(156, 156, 156);
+	flex: 70%;
+}
+
+#mover{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#mover div ul li{
+    padding: 5px;
+    display: inline-block;
+
+}
+
+#mover div ul li a{
+    display: inline-flex;
+}
+
+@media screen and (max-width: 600px){
+    .log img{
+
+        width: 50px;
+        margin: 0 auto;
+    }
+    .imagen img{
+    width: 50%;
+    }
+    .edit{
+        width: 50%;
+    }
+
+}   
